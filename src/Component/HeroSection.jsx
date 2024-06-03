@@ -7,7 +7,7 @@ const HeroSection = () => {
   const handleDownload = () => {
     
     const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1QKX_nGdvSv1u6J_qSOUIbdKbtWBYjVxM/view?usp=sharing'; 
+    link.href = 'https://drive.google.com/file/d/1r4Ca7TbC2dD59cafo0WkDlt0RtdAPxoa/view?usp=sharing'; 
     link.download = 'LoukyaResume.pdf'; 
     link.click();
   };

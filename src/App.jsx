@@ -10,16 +10,16 @@ import AboutMe from "./Component/AboutMe";
 function App() {
   return (
     <>
-      <BrowserRouter >
-  <Navbar />
-  <Routes>
-  <Route path="/Portfolio_Website" element={<HeroSection />} exact />
-    <Route path="/Skills" element={<Skills/>}/>
-    <Route path="/Project" element={<Projects />}/>
-    <Route path="/Contact" element={<Contact/>}/>
-    <Route path="/About" element={<AboutMe/>}/>
-  </Routes>
-</BrowserRouter>
+      <BrowserRouter basename="/Portfolio_Website">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HeroSection />} />
+          <Route path="/Skills" element={<Skills/>}/>
+          <Route path="/About" element={<AboutMe/>}/>
+          <Route path="/Project" element={<Projects />}/>
+          <Route path="/Contact" element={<Contact/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

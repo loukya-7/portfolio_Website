@@ -8,13 +8,12 @@ const AboutMe = () => {
         style={{backgroundImage: "radial-gradient(circle at 74.2% 50.9%, rgb(14, 72, 222) 5.2%, rgb(3, 22, 61) 100%)"}}
         className="flex flex-col lg:flex-row items-center justify-center w-full background-a "
       >
-        <div className="Left-part lg:w-2/4 flex flex-col items-center mt-28 " >
+        <div className="Left-part lg:w-2/4 flex flex-col items-center mt-20 " >
           <div className="My-detail w-full lg:w-4/5 p-4 my-4">
             <h1 className="text-white text-4xl lg:text-6xl font-bold text-center my-3">
               About Me
             </h1>
-            <h3 className="text-white text-xl lg:text-2xl font-serif text-center my-3"> Website Designer & Frontend developer</h3>
-            <p className="text-white text-lg lg:text-xl text-center my-2">
+            <p className="text-white text-lg lg:text-xl text-center my-2 mt-10">
               I'm Loukya, a passionate frontend developer with a knack for turning
               ideas into captivating online experiences.
             </p>
