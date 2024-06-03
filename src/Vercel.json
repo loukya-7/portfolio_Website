@@ -1,5 +1,0 @@
-{
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/Portfolio_Website/index.html" }
-    ]
-  }
